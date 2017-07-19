@@ -1,0 +1,3 @@
+#!/bin/sh
+gcc my-super-tiny-compiler.c -o mstc -Wall
+./mstc test-inp
