@@ -360,7 +360,7 @@ void compiler(FILE* input, FILE* output) {
 	//printf("tokenizer:\n"); ll_for(token, t, tokens, tok_print(t));
 	
 	ast* ast1 = parse(tokens);
-	ll_free(tokens);
+	//ll_free(tokens);
 	//printf("\nparser:\n"); ast_print(ast1);
 	
 	generate_code(ast1, output);
